@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: agunu2025.azurecr.io/azurepython:#{Build.BuildId}#
+        image: agunu2025.azurecr.io/eagunuworld/azure-container-repo:#{Build.BuildId}#
         ports:
         - containerPort: 5000
 # service type loadbalancer       
