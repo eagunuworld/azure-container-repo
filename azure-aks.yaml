@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: agunu2025.azurecr.io/eagunuworld/azure-container-repo
+        image: eagunuzone.azurecr.io/eagunuworld/azure-container-repo
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
