@@ -15,7 +15,6 @@ spec:
       containers:
       - name: mypythondockerrepo
         image: agunu2025.azurecr.io/eagunuworld/azure-container-repo
-        imagePullPolicy: always
         ports:
         - containerPort: 5000
 # service type loadbalancer       
